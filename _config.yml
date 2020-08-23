@@ -1,5 +1,5 @@
 title: console.blog()
-email: ericzheng@cmu.edu
+email: dadu@seas.upenn.edu
 description: > #
   This is a yearlong project for Ms. Agazarian's senior English class.
 github_username: air-wreck
@@ -15,7 +15,5 @@ include: ['_posts']
 exclude:
   - Gemfile
   - Gemfile.lock
-  - CNAME
   - README.md
   - _unfinished/*
-
