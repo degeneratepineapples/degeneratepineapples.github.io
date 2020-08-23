@@ -1,14 +1,48 @@
 ---
-layout: "wrapper"
-author: "Daniel Du"
+layout: default
 ---
 
-{% for post in site.posts %}
-  <li><a style="{% if page.url == post.url %}color:red;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
+<link href="{{ "css/github-markdown.css" | relative_url }}" rel="stylesheet">
+<link href="{{ "css/post.css" | relative_url }}" rel="stylesheet">
+<link href="{{ "css/syntax.css" | relative_url }}" rel="stylesheet">
+<div class="ui-box">
+  <div class="ui-head">
+    {{ page.title }}
+    <time>{{ page.date | date: "%B %-d, %Y" }}</time>
+  </div>
+  <div class="ui-body">
+    <div class="summary">
+      <strong>Summary:</strong> {{ page.summary }}
+    </div>
+    <div class="markdown-body">
+      {{ content }}
+    </div>
+  </div>
+</div>
 
-<h2>{{ page.title }}</h2>
-<h3>{{ layout.author }}</h3>
-<hr>
+{% if page.needsmath %}
+<!-- add MathJax only if a post says that it needs it -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-{{ content }}
+<!-- fix MathJax display mode overflow, especially for mobile devices -->
+<style>
+.mathjax-wrapper {
+  overflow-x: auto;
+  overflow-y: visible;
+}
+</style>
+<script>
+MathJax.Hub.Register.StartupHook("End", () => {
+  // wrap each MathJax display mode equation
+  Array.from(document.getElementsByClassName("MJXc-display"))
+    .forEach(equation => {
+      let parent = equation.parentNode;
+      let wrapper = document.createElement("div");
+      wrapper.className = "mathjax-wrapper";
+
+      parent.replaceChild(wrapper, equation);
+      wrapper.appendChild(equation);
+    });
+});
+</script>
+{% endif %}
