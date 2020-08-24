@@ -2,6 +2,7 @@
 layout: post
 title: Fibonacci Strings
 summary: just a distraction from impending midterms
+permalink: fibonacci-strings
 needsmath: true
 ---
 
