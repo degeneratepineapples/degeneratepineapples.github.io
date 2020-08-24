@@ -3,6 +3,7 @@ email: dadu@seas.upenn.edu
 description: > #
   This is my attempt at blogging, with possibly some other random thoughts posted as well.
 github_username: degeneratepineapples
+permalink: /:title/
 
 version: v3.7.7
 kramdown:
