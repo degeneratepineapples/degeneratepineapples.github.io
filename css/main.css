@@ -69,6 +69,7 @@ footer {
   font-family: "Roboto";
   width: 100%;
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 footer p {
   color: #606060;
@@ -134,4 +135,11 @@ time {
 }
 .postlist li span {
   font-style: italic;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 20px;
 }
