@@ -3,6 +3,7 @@ layout: post
 title: Monte Carlo Integration
 date: Jan. 22, 2019
 summary: fantastic stochastic
+permalink: monte-carlo-integration
 needsmath: true
 ---
 
@@ -153,3 +154,4 @@ print np.average([lo <= true_val <= hi
 ```
 
 A second (slight) adjustment: after learning some more in Mrs. Brown's statistics class, it seems like it would be more suitable to use a t-distribution for this post, since we lose an independent degree of freedom when we estimate the population variance with that of our random sample. However, the result should be quite similar, so I won't bother re-writing the entire post except to leave this note here. I suppose it just goes to show that there's always a way something can be improved, although it sometimes takes hindsight to realize it.
+

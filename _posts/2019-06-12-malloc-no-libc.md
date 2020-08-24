@@ -3,6 +3,7 @@ layout: post
 title: A (Bad) Libc-free Malloc Implementation
 date: Jun 12, 2019
 summary: "please, sir, I want some more memory"
+permalink: malloc-no-libc
 ---
 
 ### introduction
@@ -94,7 +95,7 @@ The two assembly functions do some pretty generic stack frame manipulations to g
 ``` asm
 ; file: mmap.s
 
-.global sys_mmap
+.global sys_mmap 
 sys_mmap:
   pushl %ebp
   movl %esp, %ebp
@@ -236,12 +237,12 @@ void *malloc(int size) {
       index = i - 1;
     }
   }
-
+  
   // if the mapping arrays are running low on space, expand them
   // we'll allocate new arrays with double the space
   if (table_size - index < 3)
     grow_table(table_size * 2);
-
+  
   void *ptr = mmap(NULL, size, PROT, FLAGS, -1, 0);
   malloc_ptr[index] = ptr;
   malloc_len[index] = size;
@@ -354,3 +355,4 @@ If you'd like, all the source code referenced in this post is available here:
 * [`malloc.c`](../../scripts/malloc.c)
 * [`malloc.h`](../../scripts/malloc.h)
 * [`main.c`](../../scripts/main.c)
+
