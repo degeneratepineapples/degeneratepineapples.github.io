@@ -3,6 +3,7 @@ layout: post
 title: A (Bad) Libc-free Malloc Implementation
 date: Jun 12, 2019
 summary: "please, sir, I want some more memory"
+permalink: malloc-no-libc
 ---
 
 ### introduction
