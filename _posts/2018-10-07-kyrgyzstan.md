@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Leaving The Ninety-Nine
-date: Oct 07, 2018
+date: Oct 7, 2018
 summary: God is the Good Shepherd and we are His sheep
 permalink: kyrgyzstan
 ---
@@ -28,7 +28,7 @@ Seeing this, our team was awestruck. There are countless references to shepherds
 
 To me, this was more than just a coincidence; it was a real glimpse of God’s love.
 
-Jesus tells us a parable about lost sheep in **Luke 15:4–7**:
+Jesus tells us a parable about lost sheep in **Luke 15:4–7:**
 
 > Suppose one of you has a hundred sheep and loses one of them. Doesn’t he leave the ninety-nine in the open country and go after the lost sheep until he finds it? And when he finds it, he joyfully puts it on his shoulders and goes home. Then he calls his friends and neighbors together and says, "Rejoice with me; I have found my lost sheep." I tell you that in the same way there will be more rejoicing in heaven over one sinner who repents than over ninety-nine righteous persons who do not need to repent.
 
@@ -48,6 +48,6 @@ In light of this parable about the lost sheep, I’m reminded of the chorus of t
 
 Albeit [controversial](https://www.christianitytoday.com/ct/2018/april-web-only/reckless-love-cory-asbury-bethel-music-and-justin-bieber.html), the shepherd’s (and God’s) love could be viewed as “reckless.” With no regard for his own well-being, the shepherd in the parable went out into the wilderness to recover his lost sheep. He left behind the ninety-nine, who were protected by each other, to pursue the one, who deserted the main group and was now defenseless. Having found his sheep, the shepherd carried it home on his shoulders and rejoiced with his friends because he had regained something important which he had lost.
 
-In this same way, God loves us and wants to bring us back to His herd. When Jesus bore the weight of our sins on the cross, He gave us a chance to play our faith in Him. **Luke 19:10** says: “*For the Son of Man came to seek and to save the lost*.” By mercy we are spared from the consequences of our wickedness; by grace we are forgiven and permitted to return to the herd. When we finally accept God’s offer, we are able to join in His celebration as part of the one hundred and live within the sanctuary He created.
+In this same way, God loves us and wants to bring us back to His herd. When Jesus bore the weight of our sins on the cross, He gave us a chance to play our faith in Him. **Luke 19:10** says: “**For the Son of Man came to seek and to save the lost.**” By mercy we are spared from the consequences of our wickedness; by grace we are forgiven and permitted to return to the herd. When we finally accept God’s offer, we are able to join in His celebration as part of the one hundred and live within the sanctuary He created.
 
 Going forward, let us strive to emulate God’s compassion. Even if it requires climbing a mountain in Kyrgyzstan, we need to be the shepherds that find and return the lost sheep in our communities. If we ourselves are the lost sheep, let us cry out for God’s forgiveness and allow Him to carry us back to the herd. In reclaiming just one sheep out of the one hundred, God calls upon the entire kingdom of heaven to rejoice with him as if He has recovered something infinitely precious.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Monte Carlo Integration
-date: Jan. 22, 2019
+date: Jan 22, 2019
 summary: fantastic stochastic
 permalink: monte-carlo-integration
 needsmath: true
