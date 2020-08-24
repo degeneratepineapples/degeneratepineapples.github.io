@@ -2,7 +2,6 @@
 layout: post
 title: Reflections on a Semester
 summary: the obligatory course review
-permalink: f19-reflections
 needsmath: true
 ---
 
