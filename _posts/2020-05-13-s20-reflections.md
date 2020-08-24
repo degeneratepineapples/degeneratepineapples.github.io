@@ -2,6 +2,7 @@
 layout: post
 title: Reflecting on a Year
 summary: old things have passed away...
+permalink: s20-reflections
 ---
 
 Well, I guess I'm officially no longer a freshman! Similar to my previous [reflection post](f19-reflections), I figured I should probably write some sort of reflection/course review about this semester. Actually, it will be less of a reflection and more of a course review, since I'm not too certain about putting up personal thoughts on a public blog.
