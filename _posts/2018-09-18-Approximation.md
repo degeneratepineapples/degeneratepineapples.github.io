@@ -3,7 +3,6 @@ layout: post
 title: Approximation Theory
 date: Sep 18, 2018
 summary: this post is about right...
-permalink: approximation
 needsmath: true
 ---
 
