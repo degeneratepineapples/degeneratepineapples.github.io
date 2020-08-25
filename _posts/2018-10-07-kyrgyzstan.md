@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leaving The Ninety-Nine
+title: Leaving the ninety-nine
 date: Oct 7, 2018
 summary: God is the Good Shepherd and we are His sheep
 permalink: kyrgyzstan
